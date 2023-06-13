@@ -50,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* Keep the period here and dont change it since I need to refer back to the hero class in the html code */
 .hero {
     height: 800px;
     width: 100%;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* These selectors and containers (138-189) were unaltered because I didn't need to change it. The HTMl code already correctly referred to the CSS code in symantec form.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
