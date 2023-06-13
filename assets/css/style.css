@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* My comment on line 17 forgot to mention that I removed the div selectors in the following three css selectors with "nav" so that it references the changed html symantec code */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -187,14 +187,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* Remove the periods for the footer selectors because the class was removed */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
