@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* all of the header selectors below were unaltered apart from the removal of the period at the beginning. The period is not needed since I changed the HTML code to remove the div class in the header element. Since I do not have any classes in the header element, the periods must go away"*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Just for my clarity sake, the "h1 .seo" part of the selector is specifically referencing the h1 element of the header. There is a seperate class which seperates the word "seo" from the rest of Horiseon. This CSS selector and container provides styling for those three letters only. It is a very subtle thing to overlook. */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +32,15 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* This "a" selector is specifically referencing the html a href elements and attribuites in the header */
 a {
     color: #ffffff;
     text-decoration: none;
