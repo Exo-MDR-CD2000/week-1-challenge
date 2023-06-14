@@ -15,7 +15,7 @@
             <!--The ul and li elements can be left alone along with its associated "a" element and href attribute-->
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a> <!--The hashtag in the href attribute is commonly used for creating internal links within a webpage to facilitate navigation and allow users to jump to specific sections or content within the same page.-->
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -34,21 +34,21 @@
     <!--I removed the div elements here to sections and the id's to class attributes. This had to be done to lines 36-57 because the website would break if i didn't-->
     <!--Luckily, nothing else had to be changed as far as the images, h2's, and p's are concerned. these are already in symantec html so they can be left alone-->
     <section class="content">
-        <section class="search-engine-optimization">
+        <section id="search-engine-optimization" class="search-engine-optimization"> <!--ah, I see what I did wrong here. The content section is the only place where id's are appropriate to use. If you don't include the id's, then the links wont redirect to that specific part of the page-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section class="online-reputation-management" class="online-reputation-management">
+        <section id="online-reputation-management" class="online-reputation-management"> <!--same here with the id-->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section class="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing" class="social-media-marketing"> <!--same here with the id-->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>

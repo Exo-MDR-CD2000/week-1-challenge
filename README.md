@@ -1,15 +1,15 @@
-# <Personal Week 1 Challenge>
+# <Week 1 Challenge>
 
 ## Description
 
-This weekly challenge tested my ability in reading and understading symantec HTML elements. The 
+This weekly challenge tested my ability in reading and understading symantec HTML elements. The non symantec elements were labeled as divs and often used id's for attributes. I had to slowly change the code to bring it up to more modern standards. This type of coding is called refractoring which means to modify the structure, organization, or desgin of an existing code without changing its external behavior or functionality. The website worked fine as it was, but it lacked proper accessibility when it used divs and id's. Symantec elements were used such as sections, asides, and navs. A few lines in the CSS code were changed but only on the selectors; the containers were not changed.
 ## Installation
 
 N/A
 
 ## Usage
 
-To use this prework study guide, you can simply review my notes that was codded using 'ul' and 'li' bullet points. Zooming in from your respective device is a must. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. You might have to tab over the console window. A list of topics learned from the prework along with a suggestion on which topic to study first will appear.
+Open your web browser console to check the accessbility features of the site.
 
 ## Credits
 
