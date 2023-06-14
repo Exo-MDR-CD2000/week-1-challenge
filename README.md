@@ -14,6 +14,6 @@ Open your web browser console to check the accessbility features of the site. Th
 
 ## Deployment Link
 
-Deploy - https://exo-mdr-cd2000.github.io/week-1-challenge/
+Deploy - https://exo-mdr-cd2000.github.io/week-1-challenge-HTML-symantecs/
 
-Github repo - https://github.com/Exo-MDR-CD2000/week-1-challenge
+Github repo - https://github.com/Exo-MDR-CD2000/week-1-challenge-HTML-symantecs
